@@ -11,6 +11,16 @@ html,body {
   font-family: "Montserrat";
 } */
 
+.my-logo {
+  width: 10%;
+  height: 10%;
+  margin-bottom: 1.3rem;
+}
+
+.insta-logo {
+  width: 4.375rem;
+  height: 4.063rem;
+}
 
 h2 {
   font-size: 3rem;
@@ -144,4 +154,9 @@ a {
     bottom: 2.5rem;
     left: 0.625rem;
   }
+
+  .navbar-custom {
+    padding: 1rem 2rem 0 2rem;
+  }
+
 }
