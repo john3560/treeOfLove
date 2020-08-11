@@ -5,11 +5,8 @@ html,body {
     padding: 0;
     overflow-x: hidden;
     background-color: black;
+    font-family: "Montserrat";
 }
-
-/* body {
-  font-family: "Montserrat";
-} */
 
 .my-logo {
   width: 10%;
@@ -57,19 +54,15 @@ a {
 
 .brand-name {
   font-family: 'Black Ops One', cursive;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
 .image-div {
   text-align: center;
-  /* background-image: url('../images/home-img.jpg');
-  min-height:  80rem;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
   padding: 0;
   position: relative;
+  display: inline-block;
 }
 
 .navbar-nav {
@@ -78,7 +71,7 @@ a {
 
 
 .primary-img {
-  width: auto;
+  width: 190rem;
   height : auto;
   max-height: 100%;
   max-width: 100%;
@@ -91,18 +84,19 @@ a {
   padding: 5%;
 }
 
-.main-writing {
+.main-writing-box .main-writing {
   color: white;
   font-size: 3rem;
   font-weight: 600;
   line-height: 1.5;
   position: absolute;
-  bottom: 15rem;
-  right: auto;
-  left: auto;
-  width: 60rem;
-  margin: auto;
-  vertical-align: middle;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 10%;
+  width: 50%;
 }
 
 .fab {
@@ -127,9 +121,9 @@ a {
 
 
 @media (max-width: 1020px) {
-  .main-writing {
-    font-size: 1.5rem;
-    width: 30rem;
+  .main-writing-box .main-writing {
+    font-size: 2rem;
+    width: 70%;
   }
 
 
@@ -143,16 +137,14 @@ a {
     font-weight: 400;
   }
 
-  .buttonCat {
-  }
 }
 
 
 @media (max-width: 500px) {
-  .main-writing {
-    width: 18.75rem;
-    bottom: 2.5rem;
-    left: 0.625rem;
+  .main-writing-box .main-writing {
+    font-size: 1.2rem;
+    bottom: 5%;
+    width: 75%;
   }
 
   .navbar-custom {
