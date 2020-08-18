@@ -47,31 +47,73 @@
   <div id="dark-div-id" class="dark-div container-fluid">
     <h2>Ajin John Lin</h2>
     <h3>Aquascaper | Photographer | Editor</h3>
-    <button type="button" class="btn btn-light buttonCat" name="button">ENQUIRIES</button>
-    <button type="button" class="btn btn-light buttonCat" name="button">THE STORY</button>
-    <button type="button" class="btn btn-light buttonCat" name="button">WORKS</button>
+    <button type="button" id="enquiryButton" class="btn btn-light buttonCat" name="button">ENQUIRIES</button>
+    <button type="button" id="storyButton" class="btn btn-light buttonCat" name="button" data-toggle="modal" data-target="#storyModalLong">THE STORY</button>
+    <button type="button" id="worksButton" class="btn btn-light buttonCat" name="button">WORKS</button>
   </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="storyModalLong" tabindex="-1" role="dialog" aria-labelledby="storyModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content modal-full-div">
+        <div class="modal-header">
+          <h5 class="modal-title modal-the-story" id="storyModalLongTitle">The Story</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="close-modal-span" aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modal-para">
+          <p>
+            Hello! I'm Ajin Lin. I've been pursuing Aquascaping hobby for more than 10 years. I combine research with hands-on experimentation to create aquascapes. Through this site, I seek to showcase my works of experimentation and exploration.
+          </p>
+          <p> ​A little about myself. I an IT guy with MCA from College of Engineering, Guindy, India. Education is revered here with a strong focus on math and science... fields that were supposed to produce tangible, economically useful output. But
+            thankfully, the biology knowledge I gained in school came in useful in later years in figuring out what makes the ecosystem in a planted tank tick.</p>
+          <p>I find Aquascaping to be a nice blend of science and art. As the plants grow, they change the landscape, so it's a piece of art that looks different day to day. And, that is what separates planted tanks from static visual art displays.
+            It
+            is also a great opportunity to observe and appreciate the intricate working of natural systems - how tiny bacteria can be so important for tank cycling and contribute so much to overall tank stability. Anyone who has tried balancing an
+            enclosed ecosystem will have a great appreciation of how the natural world works, which arguably is just a larger ecosystem enclosed by space.</p>
+          <p>The upkeep of planted tanks also require a certain amount of discipline and consistency. The same concepts apply to personal growth - improvement requires consistent, applied, conscious effort.
+          </p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="form-popup" id="myForm">
+    <form action="/action_page.php" class="form-container">
+      <h1>Contact Us</h1>
+      <input type="text" placeholder="Enter Name" name="name" maxlength="250" required>
+      <input type="email" placeholder="Enter Email" name="email" maxlength="250" required>
+      <textarea type="email" placeholder="Type your message here..." name="textArea" maxlength="2000" required></textarea>
+      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div> -->
+
   <footer id="footerArea">
     <div class="footer-div">
       <a href="https://www.youtube.com/channel/UCXK5oJYezUk9x-cJk1dr3xg">
-        <!-- <i class="fab fa-youtube youtube-icon"></i> -->
         <img src="images/youtube-Icon.png" alt="youtube-logo" class="youtube-logo">
       </a>
 
       <a href="https://www.instagram.com/ajin.lin">
-        <!-- <i class="fab fa-instagram insta-icon"></i> -->
         <img src="images/insta.png" alt="insta-logo" class="insta-logo">
       </a>
-      <p>©2020 by Ajin J Lin</p>
+      <p class="footer-para">©2020 by Ajin J Lin</p>
     </div>
   </footer>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="index.js" charset="utf-8"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-ß
 </body>
 
 </html>
