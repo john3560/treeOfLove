@@ -20,14 +20,12 @@
 
 <body>
   <div id="loading">
-    <img id="loading-image" src="images/giphy.gif" alt="Loading..." />
+    <img id="loading-img" src="images/giphy.gif" alt="Loading..." />
   </div>
   <div id="image-div-id" class="image-div container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
       <a class="navbar-brand brand-name" href="#">
-        <img src="images/TreeOfLove.svg" alt=""
-      height="250"
-      width="350" >    
+        <img class="logo-img" src="images/TreeOfLove.svg" alt="">    
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,6 +41,9 @@
           <li class="nav-item nav-item-custom">
             <a class="nav-link" href="#footerArea">Editing</a>
           </li>
+          <li class="nav-item nav-item-custom">
+            <a class="nav-link" href="#footerArea">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -56,7 +57,7 @@
     <h3>Aquascaper | Photographer | Editor</h3>
     <button type="button" id="enquiryButton" class="btn btn-light buttonCat" name="button">ENQUIRIES</button>
     <button type="button" id="storyButton" class="btn btn-light buttonCat" name="button" data-toggle="modal" data-target="#storyModalLong">THE STORY</button>
-    <button type="button" id="worksButton" class="btn btn-light buttonCat" name="button">WORKS</button>
+    <button type="button" id="worksButton" class="btn btn-light buttonCat" name="button" onclick="location.href='https://www.instagram.com/treeoflove.co.in/';">WORKS</button>
   </div>
 
   <!-- Modal -->
