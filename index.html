@@ -20,12 +20,14 @@
 
 <body>
   <div id="loading">
-    <img id="loading-img" src="images/giphy.gif" alt="Loading..." />
+    <img id="loading-image" src="images/giphy.gif" alt="Loading..." />
   </div>
   <div id="image-div-id" class="image-div container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
       <a class="navbar-brand brand-name" href="#">
-        <img class="logo-img" src="images/TreeOfLove.svg" alt="">    
+        <img src="images/TreeOfLove.svg" alt=""
+      height="250"
+      width="350" >    
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,10 +41,7 @@
             <a class="nav-link" href="#footerArea">Photography</a>
           </li>
           <li class="nav-item nav-item-custom">
-            <a class="nav-link" href="#footerArea">Web design</a>
-          </li>
-          <li class="nav-item nav-item-custom">
-            <a data-target="#contactModal" data-toggle="modal" class="nav-link" id="MainNavContact" href="#contactModal">Contact</a>
+            <a class="nav-link" href="#footerArea">Editing</a>
           </li>
         </ul>
       </div>
@@ -54,13 +53,13 @@
   </div>
   <div id="dark-div-id" class="dark-div container-fluid">
     <!-- <h2>Ajin John Lin</h2> -->
-    <h3>Aquascaping | Photography | WebDesign</h3>
-    <button type="button" id="enquiryButton" class="btn btn-light buttonCat" name="button" data-toggle="modal" data-target="#contactModal">ENQUIRIES</button>
+    <h3>Aquascaper | Photographer | Editor</h3>
+    <button type="button" id="enquiryButton" class="btn btn-light buttonCat" name="button">ENQUIRIES</button>
     <button type="button" id="storyButton" class="btn btn-light buttonCat" name="button" data-toggle="modal" data-target="#storyModalLong">THE STORY</button>
-    <button type="button" id="worksButton" class="btn btn-light buttonCat" name="button" onclick="location.href='https://www.instagram.com/treeoflove.co.in/';">WORKS</button>
+    <button type="button" id="worksButton" class="btn btn-light buttonCat" name="button">WORKS</button>
   </div>
 
-  <!-- Modal Story -->
+  <!-- Modal -->
   <div class="modal fade" id="storyModalLong" tabindex="-1" role="dialog" aria-labelledby="storyModalLongTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content modal-full-div">
@@ -91,34 +90,6 @@
     </div>
   </div>
 
-
-  <!-- Modal Contact -->
-  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content modal-full-div">
-        <div class="modal-header">
-          <h5 class="modal-title modal-contact-us" id="contactModalTitle">Contact Us</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span class="close-modal-span" aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body modal-para modal-para-contact">
-          <p>
-            Email Address : John356060@gmail.com
-          </p>
-          <p>
-            Insta Account : treeoflove.co.in 
-          </p>
-          <p>
-            Mobile No : 0777777777
-          </p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- <div class="form-popup" id="myForm">
     <form action="/action_page.php" class="form-container">
