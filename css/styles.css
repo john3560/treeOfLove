@@ -23,7 +23,7 @@ html,body
   align-items: center;
 }
 
-#loading-image {
+#loading-img {
   display: inline-block;
   position: relative;
   z-index: 100;
@@ -37,7 +37,7 @@ html,body
   color: white;
 }
 
-.modal-the-story {
+.modal-the-story, .modal-contact-us {
   color: grey;
 }
 
@@ -119,6 +119,12 @@ a {
   max-height: 100%;
   max-width: 100%;
   opacity: 0.7;
+}
+
+.logo-img
+{
+  height: 13.889rem;
+  width: 19.444rem;
 }
 
 .dark-div
@@ -234,7 +240,10 @@ a {
   opacity: 1;
 }
 
-
+.modal-para-contact p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
 
 @media (max-width: 1020px) {
   .main-writing-box .main-writing {
@@ -267,4 +276,9 @@ a {
     padding: 1rem 2rem 0 2rem;
   }
 
+  .logo-img{
+    height: 5.67rem;
+    width: 5.67rem;
+  }
+  
 }
